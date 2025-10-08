@@ -43,13 +43,19 @@
 
 /* Speaker Page */
 .speaker-img {
-    display: block;
-    max-width: 600px;   /* never gets bigger than 200px */
-    width: 100%;        /* fills container if smaller */
-    height: auto;
-    margin: 0 auto;     /* centers it */
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  width: 100%;              /* fills its Bootstrap column */
+  max-width: 250px;         /* keeps it from getting huge */
+  height: auto;             /* keeps proportions */
+  display: block;           /* allows centering */
+  margin: 0 auto 1.5rem;    /* centers it horizontally */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+  .speaker-img {
+    max-width: 300px;
+  }
 }
 
 /* Resources Page */
