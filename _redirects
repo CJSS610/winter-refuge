@@ -1,0 +1,5 @@
+# Redirect all variations to primary domain
+https://thewinterrefuge.com/*    https://www.thewinterrefuge.com/:splat    301!
+https://www.thewinterrefuge.com/*   https://www.thewinterrefuge.com/:splat   301!
+https://winterrefuge.com/*      https://www.thewinterrefuge.com/:splat    301!
+https://www.winterrefuge.com/*    https://www.thewinterrefuge.com/:splat   301!
