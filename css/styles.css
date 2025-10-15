@@ -8,20 +8,20 @@ body {
 
 /* Hero Section - Home Page */
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: black;
     color: white;
-    padding: 120px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 80%;
     margin-bottom: 20px;
 }
 
 /* General Sections */
 .section-padding {
-    padding: 80px 0;
+    padding: 50px 0;
     margin-bottom: 60px;
 }
 
@@ -83,7 +83,7 @@ body {
 /* Speaker Page */
 .speaker-img {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 600px;
     width: auto;
     height: auto;
     border-radius: 10px;
