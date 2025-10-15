@@ -1,10 +1,16 @@
 /* Custom styles for Youth Retreat Website */
 
+/* Dark Theme */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
 /* Hero Section - Home Page */
 .hero-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -15,7 +21,13 @@
 
 /* General Sections */
 .section-padding {
-    padding: 60px 0;
+    padding: 80px 0;
+}
+
+/* Dark backgrounds for sections */
+.bg-light {
+    background-color: #2a2a2a !important;
+    color: #e0e0e0;
 }
 
 /* Video Container - Home Page */
@@ -37,25 +49,33 @@
 
 /* Registration Page */
 .registration-card {
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
     border-radius: 10px;
+    background-color: #2a2a2a;
+    border: 1px solid #404040;
+}
+
+.card {
+    background-color: #2a2a2a;
+    border: 1px solid #404040;
+    color: #e0e0e0;
+}
+
+.card-body {
+    color: #e0e0e0;
+}
+
+.alert-info {
+    background-color: #1e3a5f;
+    border-color: #2e5a8f;
+    color: #d0e0ff;
 }
 
 /* Speaker Page */
 .speaker-img {
-  width: 100%;              /* fills its Bootstrap column */
-  max-width: 250px;         /* keeps it from getting huge */
-  height: auto;             /* keeps proportions */
-  display: block;           /* allows centering */
-  margin: 0 auto 1.5rem;    /* centers it horizontally */
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-@media (min-width: 768px) {
-  .speaker-img {
-    max-width: 300px;
-  }
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 /* Resources Page */
@@ -67,4 +87,51 @@
 .resource-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer - All Pages */
+footer {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    padding: 50px 0;
+    margin-top: 80px;
+    border-top: 1px solid #404040;
+}
+
+footer a {
+    color: #667eea;
+}
+
+footer a:hover {
+    color: #8899ff;
+}
+
+/* Links */
+a {
+    color: #667eea;
+}
+
+a:hover {
+    color: #8899ff;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.btn-primary:hover {
+    background-color: #5568d3;
+    border-color: #5568d3;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #1a1a1a;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+    color: #1a1a1a;
 }
